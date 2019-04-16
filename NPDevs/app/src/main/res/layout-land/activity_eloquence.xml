@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eloquence">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="668dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView79"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/debate" />
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/divykumbh" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/genletquiz" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/litchat" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/mip" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/motley" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/mun" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:padding="8dp"
+                android:paddingTop="8dp"
+                app:srcCompat="@drawable/picturetail" />
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/talktillyoudrop" />
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/thetaleteller" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/wordsworth"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="253dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:scaleType="centerCrop">
+
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Mess Feedbacks" />
+
+    <TextView
+        android:id="@+id/ftv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold" />
+
+</LinearLayout>

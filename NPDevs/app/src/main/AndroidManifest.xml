@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.npdevs.mnnitcentral">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TimeTableAdd"></activity>
+        <activity android:name=".Resources" />
+        <activity android:name=".Devlopers" />
+        <activity android:name=".Institution" />
+        <activity android:name=".About" />
+        <activity android:name=".EventAdmin" />
+        <activity android:name=".StartupFair" />
+        <activity android:name=".StallMart" />
+        <activity android:name=".PanelDiscussion" />
+        <activity android:name=".MockIplAuction" />
+        <activity android:name=".Etalk" />
+        <activity android:name=".Eplan" />
+        <activity android:name=".DeaAndDesign" />
+        <activity android:name=".Posiden" />
+        <activity android:name=".Narc" />
+        <activity android:name=".Extempore" />
+        <activity android:name=".Curosity" />
+        <activity android:name=".CodeWarz" />
+        <activity android:name=".Kavyanjali" />
+        <activity android:name=".Vaktavya" />
+        <activity android:name=".Talktillyou" />
+        <activity android:name=".PoetrySlam" />
+        <activity android:name=".Motley" />
+        <activity android:name=".Lacuzzi" />
+        <activity android:name=".Hasykosh" />
+        <activity android:name=".CulravDebate" />
+        <activity android:name=".Stallmart1" />
+        <activity android:name=".Navachar" />
+        <activity android:name=".ChanakyaNeeti" />
+        <activity android:name=".RubixCube" />
+        <activity android:name=".PubgMobile" />
+        <activity android:name=".MostWanted" />
+        <activity android:name=".Fifa" />
+        <activity android:name=".Dota2" />
+        <activity android:name=".ClueQuest" />
+        <activity android:name=".CentralDogma" />
+        <activity android:name=".Palladin" />
+        <activity android:name=".Quintathlon" />
+        <activity android:name=".Innodev" />
+        <activity android:name=".ImpromptuActivity" />
+        <activity android:name=".fgpa" />
+        <activity android:name=".EmbeddedDesign" />
+        <activity android:name=".ComboMagic" />
+        <activity android:name=".Codotron" />
+        <activity android:name=".MessUserMenu" />
+        <activity android:name=".MessUserSkip" />
+        <activity android:name=".MessUserFeedback" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".MessMenu" />
+        <activity android:name=".MessAdmin" />
+        <activity android:name=".Spandan" />
+        <activity android:name=".Razzmatazz" />
+        <activity android:name=".Rangsazzi" />
+        <activity android:name=".Rangmanch" />
+        <activity android:name=".Litmuse" />
+        <activity android:name=".StandStill" />
+        <activity android:name=".PhotoWalk" />
+        <activity android:name=".OnceUpon" />
+        <activity android:name=".IdentifyStroke" />
+        <activity android:name=".Exhibition" />
+        <activity android:name=".Making" />
+        <activity android:name=".Darkroom" />
+        <activity android:name=".VoiceOfCulrav" />
+        <activity android:name=".Rocktave" />
+        <activity android:name=".Harmony" />
+        <activity android:name=".Goat" />
+        <activity android:name=".Euphony" />
+        <activity android:name=".Annunad" />
+
+        <service
+            android:name=".push_notification"
+            android:exported="false" />
+
+        <receiver
+            android:name=".AlarmReciever"
+            android:process=":remote" />
+        <receiver android:name=".BootWakeUp">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/MapTheme" />
+        <activity android:name=".Webster" />
+        <activity android:name=".Tuxwars" />
+        <activity android:name=".Sphinx" />
+        <activity android:name=".Softathalon" />
+        <activity android:name=".Softabliz" />
+        <activity android:name=".Revengg" />
+        <activity android:name=".Operamania" />
+        <activity android:name=".LogicalRythum" />
+        <activity android:name=".Insomania" />
+        <activity android:name=".Droidrust" />
+        <activity android:name=".CodeOfTheDay" />
+        <activity android:name=".Contrihub" />
+        <activity android:name=".Robomania" />
+        <activity android:name=".Rasayan" />
+        <activity android:name=".Powersurge" />
+        <activity android:name=".Oligopoly" />
+        <activity android:name=".Nirman" />
+        <activity android:name=".Monopoly" />
+        <activity android:name=".Kreedomania" />
+        <activity android:name=".Genesis" />
+        <activity android:name=".Electromania" />
+        <activity android:name=".Cyberquest" />
+        <activity android:name=".Aerdynamix" />
+        <activity android:name=".Clubs" />
+        <activity android:name=".Annual" />
+        <activity android:name=".Renaissance" />
+        <activity android:name=".Prosang" />
+        <activity android:name=".Eloquence" />
+        <activity android:name=".Culrav" />
+        <activity android:name=".Avishkar" />
+        <activity android:name=".EventSupport" />
+        <activity android:name=".MessSupport" />
+        <activity android:name=".Front" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

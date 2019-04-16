@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stallmart1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="40dp"
+            android:paddingRight="8dp"
+            android:text="Hello ENTERPRENUERS!! Ever thought of some innovation? Do u got the urge to make money through your ideas. Then this the best chance you have got! Grab it and earn it. If you ever thought of a start up, then have a demo experience of market from here. Stall mart brings you ‘stall your ideas’. Come up with an innovative business, implement the strategies and reap the benefits. Experience the thrill, stress and excitement of owning a business. Use your ethical ways to earn maximum profits and you may win."
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

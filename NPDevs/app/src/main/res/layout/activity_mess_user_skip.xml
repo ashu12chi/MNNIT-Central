@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:scaleType="centerCrop">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:paddingLeft="130dp"
+        android:paddingTop="40dp"
+        android:text="SKIP!"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Skip mess food for tomorrow now! Timing: 16 hrs to 00 hrs" />
+
+    <CheckBox
+        android:id="@+id/checkbox_breakf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/breakfast" />
+
+    <CheckBox
+        android:id="@+id/checkbox_lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/lunch" />
+
+    <CheckBox
+        android:id="@+id/checkbox_dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/dinner" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        style="@style/AppButton"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue" />
+
+
+</LinearLayout>

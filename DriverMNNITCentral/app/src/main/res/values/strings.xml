@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Driver MNNIT Central</string>
+    <string name="title_activity_maps">Checkpoints</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="pick_riders">Pick Riders</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="name">Full Name</string>
+    <string name="cabno">Cab Number</string>
+    <string name="add">Add Driver</string>
+</resources>

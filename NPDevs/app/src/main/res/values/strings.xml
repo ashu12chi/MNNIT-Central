@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MNNIT Central</string>
+    <string name="title_activity_maps">Let\'s Ride</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="get_your_ride">Get Ride!</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodeWarz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="40dp"
+            android:paddingRight="8dp"
+            android:text=" Can you express more in a programming language than speaking? Do you love the adrenaline rush while coding in a contest? Are C++,Java and Python your most trusted allies? If your answer is “Yes”, then it’s time to put your cape on and share a coke with your code hungry team. Let your fingertip drip the hacker trapped inside the darkest neurons of the cerebrum. Prosang 2019 presents you CodeWarZ, an ICPC format based coding contest. Be one with the code and stand a chance to grab amazing prizes and goodies."
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Culrav">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/anunaad1" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Annunad"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/darkroom1" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Darkroom"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/litmuse1" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Litmuse"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/rangmanch2" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rangmanch"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/rangsaazi1" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rangsazzi"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/razzmatazz" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Razzmatazz"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/spandan1" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spandan"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

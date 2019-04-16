@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lacuzzi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="40dp"
+            android:paddingRight="8dp"
+            android:text="Have you seen Batman: The Animated Series? Can you list some Harry Potter Spells? If your answer is a YES, then you have already cleared this round. All those years of binge-watching your favorite TV shows have now come to fruition. Bring out that couch potato in you and prove yourself worthy of the throne! Let out the dark passenger inside you, dive headfirst into the world of TV series and showcase your knowledge like the Grand Maester. Ever thought of an event that awards you for spending hours and hours of your life watching TV shows? Well this one does.  "
+            android:textSize="22sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

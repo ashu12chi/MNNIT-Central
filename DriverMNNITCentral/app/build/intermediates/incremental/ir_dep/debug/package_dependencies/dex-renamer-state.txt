@@ -1,0 +1,4 @@
+#Sun Apr 14 09:45:32 IST 2019
+base.0=D\:\\Apps\\DriverMNNITCentral\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
