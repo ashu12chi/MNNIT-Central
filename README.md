@@ -18,7 +18,6 @@ This android project is developed for the welfare of students of MNNIT Allahabad
 <br><B>To just run the App:</B> we have provided two APK files too. One for the Main App and other for the Driver App.Install in your device and run normally.
 <br><br>
 <h4>Developers:</h4>
-<br>
 1. Ashutosh Chitranshi<br>
 2. Nishchal Siddharth Pandey<br>
 3. Ayush Mishra<br>
