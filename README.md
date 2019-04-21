@@ -2,7 +2,7 @@
 <br>https://ashu12chi.github.io/MNNIT-Central/
 <h3>This android application is developed for the welfare of MNNIT Allahabad students.</h3>
 <br>
-This android project is developed for the welfare of students of MNNIT Allahabad. After registration in the app:
+After registration in the app:
 <br>1.It provides facility of <B>getting a cab</B> (e-rickshaw) like popular cab apps which is seen by driver in different Driver app.
 <br>2.It provides for <B>skipping mess food</B> and get refund against it in our mess support section of the app. 
 <br>3.It provides information of all the events of the college and <B>provides notification</B> of all classes and events when added by the Admin.
