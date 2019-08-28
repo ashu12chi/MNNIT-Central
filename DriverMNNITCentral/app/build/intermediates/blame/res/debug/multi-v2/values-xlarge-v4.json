@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Apps\\DriverMNNITCentral\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "/mnt/Fast/Apps/MNNIT-Central/DriverMNNITCentral/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha04.aar\\e113edce0594faf3ff269d51e2aa5a13\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/65a718c3a5840b9a86389fc2ddafbade/appcompat-1.1.0-alpha04/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

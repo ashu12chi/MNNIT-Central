@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Apps\\DriverMNNITCentral\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "/mnt/Fast/Apps/MNNIT-Central/DriverMNNITCentral/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0-alpha05.aar\\4ec418be756ae2e4dc86ba9046d6d78d\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/a9e3404dbe19981ff31d45f57bc4cd68/material-1.1.0-alpha05/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

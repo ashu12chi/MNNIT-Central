@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Apps\\DriverMNNITCentral\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "/mnt/Fast/Apps/MNNIT-Central/DriverMNNITCentral/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha04.aar\\e113edce0594faf3ff269d51e2aa5a13\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/65a718c3a5840b9a86389fc2ddafbade/appcompat-1.1.0-alpha04/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0-alpha05.aar\\da3a4534afa84fbb3ac538a1fef280f9\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/3dfe11958b6c3401b6b69c0b4fac7e5f/core-1.1.0-alpha05/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
