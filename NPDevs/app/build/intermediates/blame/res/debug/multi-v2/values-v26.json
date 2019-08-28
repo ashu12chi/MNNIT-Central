@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\NPDevs\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/mnt/Fast/Apps/MNNIT-Central/NPDevs/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASHUTOSH CHITRANSHI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha04.aar\\4c8205863516cfe871526d992b906686\\res\\values-v26\\values-v26.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/56eb4ee6d1a6b26930f9074d8d3bdcd8/appcompat-1.1.0-alpha04/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

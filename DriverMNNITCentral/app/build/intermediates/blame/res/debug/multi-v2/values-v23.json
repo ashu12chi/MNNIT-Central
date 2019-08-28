@@ -1,21 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Apps\\DriverMNNITCentral\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/mnt/Fast/Apps/MNNIT-Central/DriverMNNITCentral/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha04.aar\\e113edce0594faf3ff269d51e2aa5a13\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/a9e3404dbe19981ff31d45f57bc4cd68/material-1.1.0-alpha05/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
-                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
-                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,215",
+                        "endLines": "4,7",
+                        "endColumns": "10,10",
+                        "endOffsets": "210,379"
+                    },
+                    "to": {
+                        "startLines": "51,54",
+                        "startColumns": "4,4",
+                        "startOffsets": "3557,3717",
+                        "endLines": "53,56",
+                        "endColumns": "10,10",
+                        "endOffsets": "3712,3881"
                     }
                 },
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-1.0.0.aar\\a16ef75a213aa299609b71248ba85089\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/91482f6452f8e2279fb096c6daca6c99/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,22 +42,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0-alpha05.aar\\4ec418be756ae2e4dc86ba9046d6d78d\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/65a718c3a5840b9a86389fc2ddafbade/appcompat-1.1.0-alpha04/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,215",
-                        "endLines": "4,7",
-                        "endColumns": "10,10",
-                        "endOffsets": "210,379"
-                    },
-                    "to": {
-                        "startLines": "51,54",
-                        "startColumns": "4,4",
-                        "startOffsets": "3557,3717",
-                        "endLines": "53,56",
-                        "endColumns": "10,10",
-                        "endOffsets": "3712,3881"
+                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
+                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
                     }
                 }
             ]

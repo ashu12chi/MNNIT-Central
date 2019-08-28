@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Apps\\DriverMNNITCentral\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "/mnt/Fast/Apps/MNNIT-Central/DriverMNNITCentral/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.2.0.aar\\a4c23dedf17249fa51eb499824ff97d2\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "161",
-                        "endOffsets": "412"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3693",
-                        "endColumns": "161",
-                        "endOffsets": "3850"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha04.aar\\e113edce0594faf3ff269d51e2aa5a13\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/65a718c3a5840b9a86389fc2ddafbade/appcompat-1.1.0-alpha04/res/values-zh-rTW/values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.0.1.aar\\f5a266d9e60b6c883d6a394fdc55fb46\\res\\values-zh-rTW\\values.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/01c0c13542d88d5d7be40f949a477c60/jetified-play-services-base-16.0.1/res/values-zh-rTW/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\NSP\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0-alpha05.aar\\da3a4534afa84fbb3ac538a1fef280f9\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/d6183c6727968c4c672a3b53674fdc7d/jetified-play-services-basement-16.2.0/res/values-zh-rTW/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "161",
+                        "endOffsets": "412"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3693",
+                        "endColumns": "161",
+                        "endOffsets": "3850"
+                    }
+                },
+                {
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/3dfe11958b6c3401b6b69c0b4fac7e5f/core-1.1.0-alpha05/res/values-zh-rTW/values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,21 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\NPDevs\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/mnt/Fast/Apps/MNNIT-Central/NPDevs/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASHUTOSH CHITRANSHI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha04.aar\\4c8205863516cfe871526d992b906686\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
-                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
-                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ASHUTOSH CHITRANSHI\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-1.0.0.aar\\f610b0b0bb0b5cfcc6b1de0f3c6fd745\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/b12bce6f5ec9d31c727bc6a2f24171aa/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ASHUTOSH CHITRANSHI\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0-alpha05.aar\\f62829b70a3906ba45229eb920b01bfe\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/83ddce6d028c5d04dc1b34b3192174ed/material-1.1.0-alpha05/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "4,4",
@@ -50,6 +39,17 @@
                         "endLines": "53,56",
                         "endColumns": "10,10",
                         "endOffsets": "3712,3881"
+                    }
+                },
+                {
+                    "source": "/home/nishchal/.gradle/caches/transforms-2/files-2.1/56eb4ee6d1a6b26930f9074d8d3bdcd8/appcompat-1.1.0-alpha04/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
+                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
                     }
                 }
             ]
