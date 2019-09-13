@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -34,7 +35,7 @@ public class push_notification extends IntentService {
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onHandleIntent(Intent intent) {
-        Log.i("Info","Reached Here");
+//        Log.i("Info","Reached Here by NSP");
         WakefulBroadcastReceiver.completeWakefulIntent(intent);
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference ref = database.getReference("eventsnotice");
@@ -62,14 +63,15 @@ public class push_notification extends IntentService {
         String gd = new SimpleDateFormat("mm").format(new Date());
         int gy = Integer.parseInt(gd);
         if (ty>=7 && ty<=16) {
-            Log.i("info" , "Reached here in");
+//            Log.i("info" , "Reached here inside by NSP");
             if (gy >= 39 && gy <= 41) {
                 Log.i("info" , "Reached here too");
                 String need=sharedPreferences.getString(day+" "+(ty+1),"");
-                if(need.isEmpty())
-                    need="No Class";
-                createNotificationChannelTT();
-                notificationTT(need);
+                if(!need.isEmpty()){
+                    createNotificationChannelTT();
+                    notificationTT(need);
+                    Toast.makeText(this,need,Toast.LENGTH_LONG).show();
+                }
             }
         }
     }

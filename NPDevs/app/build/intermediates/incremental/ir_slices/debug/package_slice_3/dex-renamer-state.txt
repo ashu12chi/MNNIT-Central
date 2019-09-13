@@ -1,4 +1,0 @@
-#Tue Apr 16 20:02:26 IST 2019
-base.0=D\:\\NPDevs\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
-path.0=classes.dex
-renamed.0=classes.dex
