@@ -33,6 +33,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Objects;
+
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
@@ -52,7 +54,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         s="";
         Intent k=getIntent();
-        regno=k.getExtras().getString("regno");
+        regno= Objects.requireNonNull(k.getExtras()).getString("regno");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -66,7 +68,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         if ( !manager.isProviderEnabled( LocationManager.GPS_PROVIDER ) ) {
             buildAlertMessageNoGps();
         }
-
     }
 
     protected void onDestroy() {
@@ -118,14 +119,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
             @Override
             public void onMarkerDragStart(Marker marker) {
-
             }
-
             @Override
             public void onMarkerDrag(Marker marker) {
-
             }
-
             @Override
             public void onMarkerDragEnd(Marker marker) {
                 latLng=new LatLng(marker.getPosition().latitude,marker.getPosition().longitude);
@@ -164,14 +161,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                                            @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
         // Check if location permissions are granted and if so enable the location data layer.
-        switch (requestCode) {
-            case REQUEST_LOCATION_PERMISSION:
-                if (grantResults.length > 0
-                        && grantResults[0]
-                        == PackageManager.PERMISSION_GRANTED) {
-                    enableMyLocation();
-                    break;
-                }
+        if (requestCode == REQUEST_LOCATION_PERMISSION) {
+            if (grantResults.length > 0
+                    && grantResults[0]
+                    == PackageManager.PERMISSION_GRANTED) {
+                enableMyLocation();
+            }
         }
     }
     private void buildAlertMessageNoGps() {
