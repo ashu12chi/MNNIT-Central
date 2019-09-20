@@ -22,3 +22,5 @@ After registration in the app:
 2. Nishchal Siddharth Pandey<br>
 3. Ayush Mishra<br>
 4. Akshay Mall<br>
+<br>
+<h3>This app won second prize in DevJam - 2019.</h3>
