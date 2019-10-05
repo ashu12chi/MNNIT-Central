@@ -24,3 +24,5 @@ After registration in the app:
 4. Akshay Mall<br>
 <br>
 <h3>This app won second prize in DevJam - 2019.</h3>
+<h3> Link to competition: </h3>
+https://woc2019-devjam.hackerearth.com/?fbclid=IwAR0Nsp2RWlnVPUytyGwlXqCpKgN5IuZiXg3Jlu1kvPnj56akGp4w_naGOjM
