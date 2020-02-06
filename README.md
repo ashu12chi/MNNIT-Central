@@ -1,9 +1,18 @@
 # MNNIT-Central
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)<br>
-<br>https://ashu12chi.github.io/MNNIT-Central/
+
+
 <h3>This android application is developed for the welfare of MNNIT Allahabad students.</h3>
+<h3>This app won second prize in DevJam - 2019.</h3>
+
+**YouTube Link to Demo Video**: 
+
+[![YouTube video here](https://img.youtube.com/vi/RcYkqvmxNFM/0.jpg)](https://youtu.be/RcYkqvmxNFM)
+
+<br>**Website:** https://ashu12chi.github.io/MNNIT-Central/
 <br>
+
 After registration in the app:
 <br>1.It provides facility of <B>getting a cab</B> (e-rickshaw) like popular cab apps which is seen by driver in different Driver app.
 <br>2.It provides for <B>skipping mess food</B> and get refund against it in our mess support section of the app. 
